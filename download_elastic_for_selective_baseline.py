@@ -13,7 +13,7 @@ def download_elastic(target_dir, num_of_results):
         # skip header
         next(reader)
 
-        user, password = 'inex', 'qatc2011'
+        user, password = 'user', 'pw'
         pre_qid = ""
         counter = 1
         for line in reader:
