@@ -7,7 +7,7 @@ target_dir = "Top-2000_InitialQuery/"
 with open("SP12023topics.csv", "r") as f:
     reader = csv.reader(f, delimiter=";")
     next(reader)
-    user, password = 'inex', 'qatc2011'
+    user, password = 'user', 'pw'
     pre_qid = ""
     counter = 1
     for line in reader:
